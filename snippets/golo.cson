@@ -1,0 +1,48 @@
+'.source.golo': # scope
+
+# Skeleton
+  'skeleton':
+    'type':'module'
+    'prefix': 'g:sk'
+    'body':"""
+module ${1:moduleName}
+
+function main = |args| {
+  ${2:someCode}
+}
+"""
+# Main
+  'main':
+    'prefix': 'g:main'
+    'body':"""
+function main = |args| {
+  ${1:someCode}
+}
+"""
+
+# Main
+  'function':
+    'prefix': 'g:func'
+    'body':"""
+function ${1:name} = |${2:args}| {
+  $3:someCode}
+}
+"""
+
+  'case':
+    'prefix': 'case'
+    'body' : """
+case {
+  when ${1:predicate} {${2:code}}
+  otherwise {${3:code}}
+}
+"""
+
+  'match':
+    'prefix': 'match'
+    'body' : """
+match {
+  when ${1:predicate} then ${2:code}
+  otherwise ${3:code}
+}
+"""
