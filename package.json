@@ -1,17 +1,15 @@
 {
   "name": "golo-ide",
   "main": "./lib/golo-ide",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Gololang support",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/k33g/golo-ide",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
