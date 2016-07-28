@@ -1,7 +1,7 @@
 {
   "name": "golo-ide",
   "main": "./lib/golo-ide",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gololang support",
   "keywords": [],
   "repository": "https://github.com/k33g/golo-ide",
