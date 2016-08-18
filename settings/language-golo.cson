@@ -1,4 +1,3 @@
 '.source.golo':
   'editor':
-    'commentStart': '----',
-    'commentEnd': '----'
+    'commentStart': '# '
