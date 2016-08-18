@@ -1,0 +1,4 @@
+'.source.golo':
+  'editor':
+    'commentStart': '----',
+    'commentEnd': '----'
